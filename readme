@@ -1,35 +1,42 @@
-This repository contains my Software Testing assignments implemented in Java. Below are the key details and instructions for the projects:
+**README.md**
 
-Assignment Overview:
-The assignments involve various aspects of web testing using Selenium, focusing on different functionalities such as login verification, interaction with text content, and more. The main tools used for these projects are Java, Selenium, and TestNG.
+This repository contains my **Software Testing assignments** implemented in **Java**. Below are the key details and instructions for the projects:
 
-Project Structure:
-Project Names: Vary based on the specific assignment.
-Web Testing Targets: URLs specified for each assignment.
-Key Functionalities:
-Detailed functionalities based on the specific assignment requirements.
+### **Assignment Overview:**
 
-Project Files:
-pom.xml: Maven configuration file with dependencies and plugins for TestNG and Selenium.
-Test Script Files (e.g., TestHero.java): Java classes containing test scripts for web testing using Selenium.
+The assignments involve various aspects of **web testing** using **Selenium**, focusing on different functionalities such as *login verification*, *interaction with text content*, and more. The main tools used for these projects are **Java**, **Selenium**, and **TestNG**.
 
-Instructions:
-1.Clone the Repository:
+### **Project Structure:**
+
+- **Project Names:** Vary based on the specific assignment.
+- **Web Testing Targets:** URLs specified for each assignment.
+- **Key Functionalities:**
+  - Detailed functionalities based on the specific assignment requirements.
+
+### **Project Files:**
+
+- **pom.xml:** Maven configuration file with dependencies and plugins for **TestNG** and **Selenium**.
+- **Test Script Files (e.g., TestHero.java):** Java classes containing test scripts for web testing using **Selenium**.
+
+### **Instructions:**
+
+1. **Clone the Repository:**
 git clone <repository_url>
 
-2.Open Project in IDE:
-Import the project into your preferred Java IDE (Eclipse, IntelliJ, etc.).
+2. **Open Project in IDE:**
+- Import the project into your preferred Java IDE (*Eclipse*, *IntelliJ*, etc.).
 
-3.Configure pom.xml:
-Ensure Maven dependencies are resolved by updating the pom.xml file.
+3. **Configure pom.xml:**
+- Ensure Maven dependencies are resolved by updating the `pom.xml` file.
 
-4.Run the Tests:
-Open the respective test script file (e.g., TestHero.java) in the IDE.
-Run the test to perform web testing on the specified URL.
+4. **Run the Tests:**
+- Open the respective test script file (e.g., `TestHero.java`) in the IDE.
+- Run the test to perform web testing on the specified URL.
 
-Additional Notes:
-Each project focuses on specific testing scenarios and functionalities.
-Make sure to have the necessary WebDriver (ChromeDriver) configured.
-Feel free to explore and enhance the projects as needed for your Software Testing assignments.
+### **Additional Notes:**
+
+- Each project focuses on specific testing scenarios and functionalities.
+- Make sure to have the necessary **WebDriver (ChromeDriver)** configured.
+- Feel free to explore and enhance the projects as needed for your Software Testing assignments.
+
 If you encounter any issues or have questions, don't hesitate to reach out. Happy testing!
-
