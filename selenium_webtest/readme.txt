@@ -18,7 +18,7 @@ Install the following dependencies:
 Compiler Plugin (https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html):
 
 xml
-Copy code
+
 <build>
     <plugins>
         <plugin>
@@ -35,7 +35,7 @@ Copy code
 Surefire Plugin (https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html):
 
 xml
-Copy code
+
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
@@ -49,7 +49,7 @@ Copy code
 Testing dependency (https://mvnrepository.com/artifact/org.testng/testng/7.9.0):
 
 xml
-Copy code
+
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
@@ -59,7 +59,7 @@ Copy code
 Selenium dependency (https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.17.0):
 
 xml
-Copy code
+
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
