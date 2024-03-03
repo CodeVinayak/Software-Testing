@@ -1,29 +1,29 @@
-Web Testing Using Selenium:
+**README.md**
 
-Website: http://testphp.vulnweb.com/userinfo.php
+### Web Testing Using Selenium:
 
-Aim: Perform web testing using Selenium and execute the following steps:
+**Website:** [http://testphp.vulnweb.com/userinfo.php](http://testphp.vulnweb.com/userinfo.php)
 
-Login to the website
-Enter text into Notepad
-Update text content on the website
-Procedure:
+**Aim:** Perform web testing using Selenium and execute the following steps:
 
+1. **Login to the website**
+2. **Enter text into Notepad**
+3. **Update text content on the website**
+
+#### Procedure:
+
+```plaintext
 a. Open a web browser and log in
 b. Retrieve and manipulate text content on the webpage
+ ```
 
-Steps:
-
-Create a Project:
+ Create a Project:
 
 Project Name: Selenium_webtest_ex5
+
 Update pom.xml:
-
-Change 'http' to 'https'
-Add dependencies and plugins:
-Code:
-
-<project xmlns="https://maven.apache.org/POM/4.0.0"
+   ```xml
+   <project xmlns="https://maven.apache.org/POM/4.0.0"
          xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -64,16 +64,18 @@ Code:
         </plugins>
     </build>
 </project>
-
+```
 Create Test Class:
 
 Right-click on src/test/java
-Create a new package (Name: com.herokuapp.theinternet)
-Create a new class (Name: TestHero)
-TestHero.java Code:
-Code:
 
-package com.herokuapp.theinternet;
+Create a new package (Name: com.herokuapp.theinternet)
+
+Create a new class (Name: TestHero)
+
+TestHero.java Code:
+ ```xml
+ package com.herokuapp.theinternet;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -105,8 +107,8 @@ public class TestHero {
         }
     }
 }
+```
+#### Run Code:
 
-Run Code:
-
-Open cmd and navigate to the project file path
-Run Code: mvn clean test
+- Open cmd and navigate to the project file path
+- Run Code: `mvn clean test`
