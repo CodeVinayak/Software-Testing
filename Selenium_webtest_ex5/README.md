@@ -1,5 +1,3 @@
-**README.md**
-
 ### Web Testing Using Selenium:
 
 **Website:** [http://testphp.vulnweb.com/userinfo.php](http://testphp.vulnweb.com/userinfo.php)
