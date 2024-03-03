@@ -10,7 +10,6 @@ Update text content on the website
 Procedure:
 
 a. Open a web browser and log in
-
 b. Retrieve and manipulate text content on the webpage
 
 Steps:
