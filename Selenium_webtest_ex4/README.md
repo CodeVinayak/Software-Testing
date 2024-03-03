@@ -1,24 +1,34 @@
-Web Testing Using Selenium:
+**Web Testing Using Selenium:**
 
-Aim: Perform web testing using Selenium and execute the following steps:
+**Aim:** Perform web testing using Selenium and execute the following steps:
 
-Searching URL
-Logout Button
-Text Content
-Procedure:
+1. **Searching URL**
+2. **Logout Button**
+3. **Text Content**
+
+**Procedure:**
+
 a. Open a web browser
+
 b. Navigate to the specified URL
+
 c. Search for a specific URL
+
 d. Locate and click on the Logout button
 
-Steps:
-Create a Project:
-Project Name: Selenium_webtest_ex4
-Update pom.xml:
-Change 'http' to 'https'
-Add dependencies and plugins:
+**Steps:**
 
-Code:
+**Create a Project:**
+
+- **Project Name:** Selenium_webtest_ex4
+
+**Update pom.xml:**
+
+- Change 'http' to 'https'
+
+**Add dependencies and plugins:**
+
+```xml
 <project xmlns="https://maven.apache.org/POM/4.0.0"
          xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
@@ -60,16 +70,18 @@ Code:
         </plugins>
     </build>
 </project>
-
+```
 Create Test Class:
 
-Right-click on src/test/java
-Create a new package (Name: com.herokuapp.theinternet)
-Create a new class (Name: PositiveTest)
+1.Right-click on src/test/java
+
+2.Create a new package (Name: com.herokuapp.theinternet)
+
+3.Create a new class (Name: PositiveTest)
 
 PositiveTest.java Code:
-
-package com.herokuapp.theinternet;
+ ```xml
+ package com.herokuapp.theinternet;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -98,8 +110,9 @@ public class PositiveTest {
         }
     }
 }
-
+```
 Run Code:
 
 Open cmd and navigate to the project file path
+
 Run Code: mvn clean test
