@@ -2,7 +2,6 @@ metadata
 .metadata
 .metadata/
 .metadata/.log
-.metadata\.log
 .log
 # Compiled class file
 *.class
